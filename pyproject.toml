@@ -65,6 +65,7 @@ django-cache-url = "^3.1.2"
 pyjwt = "^1.7.1"
 python-json-logger = "^0.1.11"
 pytimeparse = "^1.1.8"
+gunicorn = "^20.0.4"
 
 [tool.poetry.dev-dependencies]
 black = "19.10b0"
@@ -95,6 +96,7 @@ transifex-client = "^0"
 django-stubs = "1.2"
 mypy = "0.740"
 pywatchman = "^1.4.1"
+gittle = "^0.5.0"
 
 [tool.black]
 target_version = ['py35', 'py36', 'py37', 'py38']
